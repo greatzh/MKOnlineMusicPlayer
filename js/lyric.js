@@ -20,7 +20,7 @@ function lyricCallback(str, id) {
     rem.lyric = parseLyric(str);    // 解析获取到的歌词
     
     if(rem.lyric === '') {
-        lyricTip('没有歌词');
+        lyricTip('No lyric');
         return false;
     }
     
