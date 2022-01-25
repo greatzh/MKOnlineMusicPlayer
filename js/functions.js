@@ -681,19 +681,19 @@ function clearSheet() {
     rem.sheetList.html('');
 }
 
-// 歌单列表底部登陆条
-function sheetBar() {
-    var barHtml;
-    if(playerReaddata('uid')) {
-        barHtml = '已同步 ' + rem.uname + ' 的歌单 <span class="login-btn login-refresh">[刷新]</span> <span class="login-btn login-out">[退出]</span>';
-    } else {
-        barHtml = '我的歌单 <span class="login-btn login-in">[点击同步]</span>';
-    }
-    barHtml = '<span id="sheet-bar"><div class="clear-fix"></div>' +
-    '<div id="user-login" class="sheet-title-bar">' + barHtml + 
-    '</div></span>'; 
-    rem.sheetList.append(barHtml);
-}
+// // 歌单列表底部登陆条
+// function sheetBar() {
+//     var barHtml;
+//     if(playerReaddata('uid')) {
+//         barHtml = '已同步 ' + rem.uname + ' 的歌单 <span class="login-btn login-refresh">[刷新]</span> <span class="login-btn login-out">[退出]</span>';
+//     } else {
+//         barHtml = '我的歌单 <span class="login-btn login-in">[点击同步]</span>';
+//     }
+//     barHtml = '<span id="sheet-bar"><div class="clear-fix"></div>' +
+//     '<div id="user-login" class="sheet-title-bar">' + barHtml + 
+//     '</div></span>'; 
+//     rem.sheetList.append(barHtml);
+// }
 
 // 选择要显示哪个数据区
 // 参数：要显示的数据区（list、sheet、player）

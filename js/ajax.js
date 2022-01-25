@@ -132,7 +132,7 @@ function ajaxUrl(music, callback)
             return true;
         },   //success
         error: function(XMLHttpRequest, textStatus, errorThrown) {
-            layer.msg('歌曲链接获取失败 - ' + XMLHttpRequest.status);
+            layer.msg('Failed to play, click the Playlists pls.');
             console.error(XMLHttpRequest + textStatus + errorThrown);
         }   // error 
     }); //ajax
@@ -307,7 +307,7 @@ function ajaxLyric(music, callback) {
             }
         },   //success
         error: function(XMLHttpRequest, textStatus, errorThrown) {
-            layer.msg('歌词读取失败 - ' + XMLHttpRequest.status);
+            // layer.msg('歌词读取失败 - ' + XMLHttpRequest.status);
             console.error(XMLHttpRequest + textStatus + errorThrown);
             callback('', music.lyric_id);    // 回调函数
         }   // error   
