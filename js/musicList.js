@@ -103,7 +103,8 @@ var musicList = [
                 lyric_id: "", // 歌词ID
                 pic: "images/johnsk.png", // 专辑图片
                 url: "https://onedriveofzihao.vercel.app/api?path=/Entertain/Karaok/%E9%81%87%E8%A7%81%EF%BC%88cover%E5%AD%99%E7%87%95%E5%A7%BF).m4a&raw=true" // mp3链接（此项建议不填，除非你有该歌曲的比较稳定的外链）
-            } {
+            },
+            {
                 id: "", // 音乐ID
                 name: "一个人生活", // 音乐名字
                 artist: "Panta.Q", // 艺术家名字
