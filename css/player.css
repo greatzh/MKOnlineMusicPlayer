@@ -439,8 +439,8 @@ body {
 /* 歌单封面 */
 .sheet-cover {
     display: block;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     margin: 10px auto;
     cursor: pointer;
 }
